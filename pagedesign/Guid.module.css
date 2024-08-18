@@ -1,0 +1,44 @@
+.roadmapContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .stepContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .stepContainer:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .stepIcon {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .stepContent {
+    flex: 2;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stepTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .stepDescription {
+    font-size: 1em;
+  }
+  
+  @media (max-width: 768px) {
+    .stepContainer {
+      flex-direction: column;
+    }
+  }
+  

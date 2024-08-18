@@ -1,0 +1,57 @@
+/* ThemeDetails.module.css */
+
+.container {
+  padding: 20px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.topBar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.viewOptions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.viewOptions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.themeDetails {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.themeDetails.desktop .themePreview {
+  width: 100%;
+}
+
+.themeDetails.tablet .themePreview {
+  width: 768px;
+}
+
+.themeDetails.mobile .themePreview {
+  width: 375px;
+}
+
+.themePreview {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+}

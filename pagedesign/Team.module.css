@@ -1,0 +1,108 @@
+/* Center the container and add padding */
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 30% 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title styling */ 
+.title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+.section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Info items and transactions */
+.infoItem, .transaction {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.transactionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Icons */
+.icon {
+  margin-right: 10px;
+  color: #0070f3;
+}
+
+.transaction button {
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction button:hover {
+  background-color: #005bb5;
+}
+
+/* Link styling */
+.a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.ptagt {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ae0707; 
+}
+
+
+
+.tearmcontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+
+.teamDetails {
+  display: flex;
+  display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 16px;
+}
+
+.teamDetails p{
+  font-size: 18px;
+    font-weight: 500;
+  color: #fff; 
+  
+}

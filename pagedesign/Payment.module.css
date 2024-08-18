@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+
+  
+
+  
+  .screenshot {
+    max-width: 200px;
+    height: auto;
+  }
+
+
+  .transactionItem  p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+
+  .containermypay {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-top: 8%;
+   
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .transactionItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+    
+  .transactionList {
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+  }

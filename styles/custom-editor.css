@@ -1,0 +1,71 @@
+/* custom-editor.css */
+
+/* General styles */
+/* body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+} */
+
+/* Container for the GrapesJS editor */
+#gjs {
+  display: flex;
+  height: 100vh;
+}
+
+/* Customizing the block manager within the editor */
+.gjs-blocks-c {
+  background-color: #f8f9fa;
+  border-left: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+  overflow-y: auto;
+  order: 3; /* Ensure blocks are on the right */
+}
+
+.gjs-block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.gjs-block:hover {
+  background-color: #e9ecef;
+}
+
+/* Customizing the canvas area */
+.gjs-cv-canvas {
+  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+  flex-grow: 1;
+  order: 1; /* Ensure canvas is on the left */
+}
+
+/* Customizing panels and buttons */
+.gjs-pn-panel {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.gjs-pn-panel .gjs-pn-btn {
+  color: #ffffff;
+}
+
+.gjs-pn-panel .gjs-pn-btn:hover {
+  background-color: #333333;
+}
+
+/* Custom save button */
+.gjs-pn-btn.fa-save {
+  color: #28a745;
+}
+
+.gjs-pn-btn.fa-save:hover {
+  color: #218838;
+}

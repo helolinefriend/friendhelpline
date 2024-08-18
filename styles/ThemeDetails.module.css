@@ -1,0 +1,106 @@
+.container {
+    padding: 20px;
+  }
+  
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .themeDetails {
+    margin-top: 20px;
+  }
+  
+  .themePreview {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .themeDetails h1 {
+      font-size: 1.5rem;
+    }
+  
+    .themePreview {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px) {
+    .themeDetails h1 {
+      font-size: 2rem;
+    }
+  
+    .themePreview {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .themeDetails h1 {
+      font-size: 2.5rem;
+    }
+  
+    .themePreview {
+      font-size: 1.125rem;
+    }
+  }
+  
+
+
+  /* .container {
+    padding: 20px;
+  }
+  
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  } */
+  
+  .viewOptions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .viewOptions button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .themeDetails {
+    margin-top: 20px;
+  }
+  
+  .themePreview {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* View options styles */
+  .mobile .themePreview {
+    width: 375px;
+    height: 667px;
+    border: 1px solid #000;
+  }
+  
+  .tablet .themePreview {
+    width: 768px;
+    height: 1024px;
+    border: 1px solid #000;
+  }
+  
+  .desktop .themePreview {
+    width: 1024px;
+    height: 768px;
+    border: 1px solid #000;
+  }
+  

@@ -1,0 +1,57 @@
+.container {
+    padding: 20px;
+  }
+  
+  .themeList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .themeItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .themeItem h3 {
+      font-size: 1.25rem;
+    }
+  
+    .themeItem p {
+      font-size: 0.875rem;
+    }
+  
+    .themeItem button {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px) {
+    .themeItem h3 {
+      font-size: 1.5rem;
+    }
+  
+    .themeItem p {
+      font-size: 1rem;
+    }
+  
+    .themeItem button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .themeItem h3 {
+      font-size: 1.75rem;
+    }
+  
+    .themeItem p {
+      font-size: 1.125rem;
+    }
+  
+    .themeItem button {
+      font-size: 1.125rem;
+    }
+  }
+  

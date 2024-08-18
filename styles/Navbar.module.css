@@ -1,0 +1,94 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:var(--primary-color);
+  color: #fff;
+}
+
+.navItems li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.3s;
+ 
+}
+
+.navItems li  a:hover {
+  color: #403f3f;
+  transition: 0.3s;
+}
+
+.sign {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.logo  a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+
+.menuIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+
+
+
+.navItems li button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: flex;
+  }
+
+  .navItems {
+    position: absolute;
+    top: 110px;
+    right: -5%;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+    padding: 10px;
+    display: none;
+  }
+
+  .navItems.active {
+    display: flex;
+  }
+}

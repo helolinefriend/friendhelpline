@@ -1,0 +1,97 @@
+.supportContainer {
+    
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 28% 2%;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  /* position: absolute; */
+  /* display: flex; */
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactOptions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    text-align: center;
+  }
+  
+  .chatSection {
+    text-align: center;
+  }
+  
+  .chatButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chatBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .chatLog {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .userMessage {
+    text-align: right;
+    padding: 5px;
+    background-color: #e1ffc7;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .adminMessage {
+    text-align: left;
+    padding: 5px;
+    background-color: #fff1c1;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .inputSection {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chatInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sendButton {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+
+
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }

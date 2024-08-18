@@ -1,0 +1,259 @@
+.profileContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background: var(--bgpages);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.profileImage {
+  display: block;
+  margin: 0 auto 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--blue-light);
+}
+
+.profileImage:hover {
+  transform: scale(1.1);
+}
+
+
+
+.profileDetails {
+  margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+
+.formGroup span {
+  display: block;
+  padding: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.linkdiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+    justify-content: center;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.link:hover {
+  background-color: var(--blue-light);
+   transition: 0.3s;
+}
+
+
+.link svg{
+  
+  padding: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.link svg::after{
+  
+ transform: scale(1.1);
+}
+
+
+
+.opneref {
+  background-color: var(--blue-light);
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.formGroup span:hover {
+  transition: 0.3s;
+  background-color: #c2d4e8;
+  border: 1px solid #000000;
+}
+
+.copyButton {
+  background-color: var(--blue-light);
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.copyButton:hover {
+  background-color: #005bb5;
+}
+
+.updateLink {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.updateLink a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.updateLink a:hover {
+  text-decoration: underline;
+}
+
+.bankDetails,
+.qrDetails {
+  margin-bottom: 25px;
+}
+
+.formGroup h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .profileContainer {
+      padding: 15px;
+      margin: 10px;
+      padding-top: 20%;
+  }
+
+  .profileHeader {
+      font-size: 20px;
+  }
+
+  .profileImage {
+      width: 120px;
+      height: 120px;
+  }
+
+  .formGroup label {
+      font-size: 14px;
+  }
+
+  .formGroup span {
+      font-size: 12px;
+      padding: 10px;
+  }
+
+  .copyButton {
+      padding: 6px 10px;
+      font-size: 12px;
+  }
+
+  .updateLink a {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileContainer {
+      padding: 10px;
+      margin: 5px;
+  }
+
+  .profileHeader {
+      font-size: 18px;
+  }
+
+  .profileImage {
+      width: 100px;
+      height: 100px;
+  }
+
+  .formGroup {
+      margin-bottom: 10px;
+  }
+
+  .formGroup label {
+      font-size: 12px;
+  }
+
+  .formGroup span {
+      font-size: 10px;
+      padding: 8px;
+  }
+
+  .copyButton {
+      padding: 5px 8px;
+      font-size: 10px;
+  }
+
+  .updateLink a {
+      font-size: 12px;
+  }
+}
+
+
+.previewImageid {
+  display: block;
+  margin: 0 auto 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0070f3;
+}
+
+
+

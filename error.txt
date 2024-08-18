@@ -1,0 +1,13 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    
+    images: {
+      domains: ['res.cloudinary.com'], // Add your image host domain here
+    },
+  };
+  
+  export default nextConfig;
+
+
+
+i remove config in 

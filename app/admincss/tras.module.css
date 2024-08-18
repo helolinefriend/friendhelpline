@@ -1,0 +1,51 @@
+.transactionContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactionContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .transactionCard {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .transactionCard p {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .transactionCard strong {
+    color: #333;
+  }
+  
+  .screenshotContainer {
+    margin-top: 10px;
+  }
+  
+
+  .screenshotpig {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .screenshotpig:hover {
+   transform: scale(1.1);
+  }
+  
